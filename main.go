@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"os"
 	"os/signal"
@@ -56,7 +55,7 @@ func main() {
 	defer func() {
 		signal.Stop(signalChan)
 		cancel()
-		fmt.Print("\n")
+		log.Println("caught SIGINT, exiting.")
 	}()
 
 	// listen for hard and soft exits
