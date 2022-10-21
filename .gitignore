@@ -7,8 +7,7 @@
 cfd
 
 # Dev config files
-*.yml
-*.yaml
+local/
 
 # Test binary, built with `go test -c`
 *.test
