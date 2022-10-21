@@ -13,6 +13,7 @@ type Config struct {
 	Token    string `koanf:"token"`
 	Zones    []Zone `koanf:"zones"`
 	Interval int    `koanf:"interval"`
+	lastIP   string
 }
 
 type Zone struct {
