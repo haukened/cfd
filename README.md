@@ -8,6 +8,6 @@ The program will then update the DNS records for all zone/host combinations in t
 
 # TODO
 
-- systemd unit file
+- ~~systemd unit file~~
 - deb packaging
 - IPv6 support
