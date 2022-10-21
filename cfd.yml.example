@@ -1,0 +1,11 @@
+cfd:
+  token: <YOUR CLOUDFLARE TOKEN HERE>
+  zones:
+    - zone: example.com
+      ttl: 1
+      hosts:
+        - foo.example.com
+        - bar.example.com
+    - zone: badexample.com
+        - foo.badexample.com
+        - bar.badexample.com
