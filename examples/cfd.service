@@ -1,0 +1,12 @@
+[Unit]
+Description=CFD - CloudFlare DDNS Updater
+Documentation=https://github.com/haukened/cfd
+Type=simple
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/sbin/cfd
+
+[Install]
+WantedBy=multi-user.target
